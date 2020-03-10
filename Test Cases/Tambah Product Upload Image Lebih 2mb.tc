@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test case untuk menyimapan product dengan panjang nama karakter 255</description>
+   <name>Tambah Product Upload Image Lebih 2mb</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8aec83e7-eb31-448f-a291-9f54c4301064</testCaseGuid>
+</TestCaseEntity>

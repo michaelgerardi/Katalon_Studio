@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>test case untuk menyimapan product dengan panjang nama karakter 255</description>
+   <name>Tambah Product Harga Int 11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b56226a2-e542-4038-a773-2a4c49a2cd5c</testCaseGuid>
+</TestCaseEntity>
