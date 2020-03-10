@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>test case untuk menyimapan product dengan panjang nama karakter 255</description>
+   <description>test case untuk menyimapan product dengan panjang nama int 1</description>
    <name>Tambah Product Harga Int 1</name>
    <tag></tag>
    <comment></comment>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>test case untuk menyimapan product dengan panjang nama karakter 255</description>
+   <description>test case untuk menyimapan product denganupload image kurang dari 2mb</description>
    <name>Tambah Product Upload Image kurang 2mb</name>
    <tag></tag>
    <comment></comment>
