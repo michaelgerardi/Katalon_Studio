@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test working flow test for SSAT UKDW</description>
+   <name>SSAT UKDW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b93e836c-987f-4ce8-b948-3ca368cb854f</testCaseGuid>
+</TestCaseEntity>

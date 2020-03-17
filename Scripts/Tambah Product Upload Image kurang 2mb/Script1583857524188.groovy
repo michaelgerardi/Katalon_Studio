@@ -40,7 +40,7 @@ WebUI.uploadFile(findTestObject('Page_Tokobuah Admin - Products/input_Photo_imag
 
 WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Description_btn'))
 
-WebUI.verifyElementText(findTestObject('Page_Tokobuah Admin - Products/div_Berhasil disimpan'), 'Gagal disimpan')
+WebUI.verifyElementText(findTestObject('Page_Tokobuah Admin - Products/div_Berhasil disimpan'), 'Berhasil disimpan')
 
 WebUI.closeBrowser()
 

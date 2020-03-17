@@ -34,13 +34,13 @@ WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/i
 
 WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Price_price'), '111111111111')
 
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/textarea_Description_description'), 'kopi hitam legam')
+WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/textarea_Description_description'), '999999999999999999999999999999999999999999999999999999999999999')
 
 WebUI.uploadFile(findTestObject('Page_Tokobuah Admin - Products/input_Photo_image'), 'C:\\Users\\ASUS\\Downloads\\123.jpg')
 
 WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Description_btn'))
 
-WebUI.verifyElementText(findTestObject('Page_Tokobuah Admin - Products/div_Berhasil disimpan'), 'Gagal disimpan')
+WebUI.verifyElementText(findTestObject('Page_Tokobuah Admin - Products/div_Berhasil disimpan'), 'Berhasil disimpan')
 
 WebUI.closeBrowser()
 

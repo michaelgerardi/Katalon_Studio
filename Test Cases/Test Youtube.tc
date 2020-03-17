@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>working Flow test for youtube</description>
+   <name>Test Youtube</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f627f580-e125-421a-81a6-84eb14e5a118</testCaseGuid>
+</TestCaseEntity>

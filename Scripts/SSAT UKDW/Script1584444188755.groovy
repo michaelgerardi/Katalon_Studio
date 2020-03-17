@@ -18,29 +18,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost/tokobuah/index.php/admin/login')
+WebUI.navigateToUrl('https://ssat.ukdw.ac.id/')
 
-WebUI.setText(findTestObject('Page_Login Admin/input_Email_email'), 'dian')
+WebUI.setText(findTestObject('Object Repository/Page_SSaT/input_LOGIN_uname'), '72170100')
 
-WebUI.setEncryptedText(findTestObject('Page_Login Admin/input_Password_password'), 'MMS/zmTQxAM=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_SSaT/input_LOGIN_pword'), 'Fj7fOKMiR+4=')
 
-WebUI.click(findTestObject('Page_Login Admin/input_Lupa Password_btn btn-success w-100'))
+WebUI.click(findTestObject('Object Repository/Page_SSaT/button_SUBMIT'))
 
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin -/a_Products'))
+WebUI.click(findTestObject('Object Repository/Page_SSaT/a_DATA AKADEMIK'))
 
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin -/a_New Product'))
+WebUI.click(findTestObject('Object Repository/Page_SSaT/a_KRS  RENCANA STUDI'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Name_name'), 'kopi')
+WebUI.waitForElementClickable(findTestObject('Page_SSaT/b_LOGOUT'), 5)
 
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Price_price'), '111111111111')
-
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/textarea_Description_description'), '9')
-
-WebUI.uploadFile(findTestObject('Page_Tokobuah Admin - Products/input_Photo_image'), 'C:\\Users\\ASUS\\Downloads\\123.jpg')
-
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Description_btn'))
-
-WebUI.verifyElementText(findTestObject('Page_Tokobuah Admin - Products/div_Berhasil disimpan'), 'Berhasil disimpan')
+WebUI.click(findTestObject('Object Repository/Page_SSaT/b_LOGOUT'))
 
 WebUI.closeBrowser()
 

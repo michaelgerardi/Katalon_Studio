@@ -18,29 +18,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost/tokobuah/index.php/admin/login')
+WebUI.navigateToUrl('https://www.kompas.com/')
 
-WebUI.setText(findTestObject('Page_Login Admin/input_Email_email'), 'dian')
+WebUI.waitForElementClickable(findTestObject('Page_Berita Terkini Hari Ini Kabar Akurat T_b29f4f/a_Otomotif'), 5)
 
-WebUI.setEncryptedText(findTestObject('Page_Login Admin/input_Password_password'), 'MMS/zmTQxAM=')
-
-WebUI.click(findTestObject('Page_Login Admin/input_Lupa Password_btn btn-success w-100'))
-
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin -/a_Products'))
-
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin -/a_New Product'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Name_name'), 'kopi')
-
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Price_price'), '111111111111')
-
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/textarea_Description_description'), '9')
-
-WebUI.uploadFile(findTestObject('Page_Tokobuah Admin - Products/input_Photo_image'), 'C:\\Users\\ASUS\\Downloads\\123.jpg')
-
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Description_btn'))
-
-WebUI.verifyElementText(findTestObject('Page_Tokobuah Admin - Products/div_Berhasil disimpan'), 'Berhasil disimpan')
+WebUI.click(findTestObject('Object Repository/Page_Berita Terkini Hari Ini Kabar Akurat T_b29f4f/a_Otomotif'))
 
 WebUI.closeBrowser()
 

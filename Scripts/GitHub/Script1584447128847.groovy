@@ -18,29 +18,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost/tokobuah/index.php/admin/login')
+WebUI.navigateToUrl('https://github.com/login')
 
-WebUI.setText(findTestObject('Page_Login Admin/input_Email_email'), 'dian')
+WebUI.setText(findTestObject('Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 'mikelgerard17@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Page_Login Admin/input_Password_password'), 'MMS/zmTQxAM=')
+WebUI.setEncryptedText(findTestObject('Page_Sign in to GitHub  GitHub/input_Forgot password_password'), 'A1kPZED3pbr6LPRCs11Igw==')
 
-WebUI.click(findTestObject('Page_Login Admin/input_Lupa Password_btn btn-success w-100'))
+WebUI.click(findTestObject('Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
 
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin -/a_Products'))
+WebUI.click(findTestObject('Object Repository/Page_GitHub/img_New project_avatar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin -/a_New Product'))
+WebUI.waitForElementClickable(findTestObject('Page_GitHub/button_Sign out'), 5)
 
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Name_name'), 'kopi')
-
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Price_price'), '111111111111')
-
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/textarea_Description_description'), '9')
-
-WebUI.uploadFile(findTestObject('Page_Tokobuah Admin - Products/input_Photo_image'), 'C:\\Users\\ASUS\\Downloads\\123.jpg')
-
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Description_btn'))
-
-WebUI.verifyElementText(findTestObject('Page_Tokobuah Admin - Products/div_Berhasil disimpan'), 'Berhasil disimpan')
+WebUI.click(findTestObject('Page_GitHub/button_Sign out'))
 
 WebUI.closeBrowser()
 

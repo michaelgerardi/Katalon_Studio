@@ -18,29 +18,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost/tokobuah/index.php/admin/login')
+WebUI.navigateToUrl('https://moodle.fti.ukdw.ac.id/login/index.php')
 
-WebUI.setText(findTestObject('Page_Login Admin/input_Email_email'), 'dian')
+WebUI.setText(findTestObject('Page_Media Pembelajaran Online Universitas _2bbdd2/input_Username_username'), '72170100')
 
-WebUI.setEncryptedText(findTestObject('Page_Login Admin/input_Password_password'), 'MMS/zmTQxAM=')
+WebUI.setEncryptedText(findTestObject('Page_Media Pembelajaran Online Universitas _2bbdd2/input_Password_password'), 'PoU21LH0IDByM4vL2/fMoA==')
 
-WebUI.click(findTestObject('Page_Login Admin/input_Lupa Password_btn btn-success w-100'))
+WebUI.click(findTestObject('Page_Media Pembelajaran Online Universitas _2bbdd2/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin -/a_Products'))
+WebUI.click(findTestObject('Page_Dashboard/a_michael gerardi'))
 
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin -/a_New Product'))
+WebUI.waitForElementClickable(findTestObject('Page_Dashboard/a_Log out'), 5)
 
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Name_name'), 'kopi')
-
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Price_price'), '111111111111')
-
-WebUI.setText(findTestObject('Object Repository/Page_Tokobuah Admin - Products/textarea_Description_description'), '9')
-
-WebUI.uploadFile(findTestObject('Page_Tokobuah Admin - Products/input_Photo_image'), 'C:\\Users\\ASUS\\Downloads\\123.jpg')
-
-WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin - Products/input_Description_btn'))
-
-WebUI.verifyElementText(findTestObject('Page_Tokobuah Admin - Products/div_Berhasil disimpan'), 'Berhasil disimpan')
+WebUI.click(findTestObject('Object Repository/Page_Dashboard/a_Log out'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>working flow test for Kompas.com</description>
+   <name>Kompas.com</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d808a2a9-73f3-4cd6-8d10-bf72f1224bb3</testCaseGuid>
+</TestCaseEntity>
