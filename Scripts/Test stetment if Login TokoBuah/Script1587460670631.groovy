@@ -28,11 +28,7 @@ WebUI.click(findTestObject('Object Repository/Page_Login Admin/input_Lupa Passwo
 
 halaman_tujuan = WebUI.getUrl()
 
-if (halaman_tujuan == 'http://localhost/tokobuah/index.php/admin') {
-    WebUI.comment('Berhasil Login')
-} else {
-    WebUI.comment('Gagal Login')
-}
+WebUI.verifyMatch(halaman_tujuan, 'http://localhost/tokobuah/index.php/admin', false)
 
 WebUI.closeBrowser()
 

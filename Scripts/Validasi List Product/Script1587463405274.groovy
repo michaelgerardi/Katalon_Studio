@@ -16,23 +16,50 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost/tokobuah/index.php/admin/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_Login Admin/input_Email_email'), 'dian')
+WebUI.setText(findTestObject('Page_Login Admin/input_Email_email'), 'dian')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Login Admin/input_Password_password'), 'MMS/zmTQxAM=')
+WebUI.setEncryptedText(findTestObject('Page_Login Admin/input_Password_password'), 'MMS/zmTQxAM=')
 
-WebUI.click(findTestObject('Object Repository/Page_Login Admin/input_Lupa Password_btn btn-success w-100'))
+WebUI.click(findTestObject('Page_Login Admin/input_Lupa Password_btn btn-success w-100'))
 
-halaman_tujuan = WebUI.getUrl()
+WebUI.click(findTestObject('Page_Tokobuah Admin -/a_Products'))
 
-if (halaman_tujuan == 'http://localhost/tokobuah/index.php/admin') {
-    WebUI.comment('Berhasil Login')
-} else {
-    WebUI.comment('Gagal Login')
+WebUI.click(findTestObject('Object Repository/Page_Tokobuah Admin -/a_List Product'))
+
+String expectedValue = 'appel'
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement Table = driver.findElement(By.xpath('//table/tbody'))
+
+List<WebElement> Rows = Table.findElements(By.tagName('tr'))
+
+println('No. of rows: ' + Rows.size())
+
+table: for (int i = 0; i < Rows.size(); i++) {
+	List<WebElement> Cols = Rows.get(i).findElements(By.tagName('td'))
+
+	for (int j = 0; j < Cols.size(); j++) {
+		if (Cols.get(j).getText().equalsIgnoreCase(expectedValue)) {
+			WebUI.comment(('appel ' + expectedValue) + ' ada')
+
+			break
+		}
+	}
 }
 
-WebUI.closeBrowser()
+
+
+
+
+
 
