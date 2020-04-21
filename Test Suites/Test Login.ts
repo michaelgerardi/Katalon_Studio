@@ -20,6 +20,6 @@
       <guid>8ebfdf69-0234-4724-bf4b-eb2d1077016e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Login Dians dan Kopi</testCaseId>
+      <testCaseId>Test Cases/Test stetment if Login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

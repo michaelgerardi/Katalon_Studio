@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>menguji login dengan dian dan kopi</description>
-   <name>Test stetment if Login TokoBuah</name>
+   <name>Test stetment if Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ffa2de88-b7f6-4b69-b890-fad79bfd380a</testCaseGuid>
+   <testCaseGuid>9f7cc9c8-19d4-44c4-8d88-739c7997ea2f</testCaseGuid>
 </TestCaseEntity>
