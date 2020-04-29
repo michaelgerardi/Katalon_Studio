@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Input Barang</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>437c71d8-b33c-4e2d-a1be-efb6e7dfae73</testSuiteGuid>
+   <testCaseLink>
+      <guid>02234fd6-3a6d-4355-ad70-7fd7e4c6d930</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Input Barang - Variabel</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6128d9de-8cba-4462-813c-a4be1ce377ce</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Input Barang</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6128d9de-8cba-4462-813c-a4be1ce377ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>546561d8-f7eb-4ef5-8ce2-73366b5cc3db</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6128d9de-8cba-4462-813c-a4be1ce377ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>price</value>
+         <variableId>03fcf4e4-ae7e-4423-ae4c-01214601f79b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6128d9de-8cba-4462-813c-a4be1ce377ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>image</value>
+         <variableId>ddb9f050-e74e-4969-8d94-53ff69a9eba1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6128d9de-8cba-4462-813c-a4be1ce377ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>088ba076-8efe-4e1a-9310-23e54b515199</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6128d9de-8cba-4462-813c-a4be1ce377ce</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expired_date</value>
+         <variableId>fd1b7704-e024-413a-8276-7be5b10fa186</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input Barang - Variabel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d8b0ca5-3d7d-42c0-8726-d308509516c1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>546561d8-f7eb-4ef5-8ce2-73366b5cc3db</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>03fcf4e4-ae7e-4423-ae4c-01214601f79b</id>
+      <masked>false</masked>
+      <name>price</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ddb9f050-e74e-4969-8d94-53ff69a9eba1</id>
+      <masked>false</masked>
+      <name>image</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>088ba076-8efe-4e1a-9310-23e54b515199</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd1b7704-e024-413a-8276-7be5b10fa186</id>
+      <masked>false</masked>
+      <name>expired_date</name>
+   </variable>
+</TestCaseEntity>
