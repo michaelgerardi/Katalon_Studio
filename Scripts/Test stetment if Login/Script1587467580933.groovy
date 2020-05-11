@@ -34,5 +34,47 @@ if (halaman_tujuan == 'http://localhost/tokobuah/index.php/admin') {
     WebUI.comment('Gagal Login')
 }
 
+Mobile.startApplication('D:\\PROJECTProgmob-master\\app\\build\\outputs\\apk\\debug\\app-debug.apk', true)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.TextView0 - SI-KRS'), 0)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.EditText0 - Email'), 0)
+
+Mobile.setText(findTestObject('Insert Matakuliah/android.widget.EditText0 - Email (1)'), '123@staff.ukdw.ac.id', 0)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.EditText0 - Password'), 0)
+
+Mobile.setText(findTestObject('Insert Matakuliah/android.widget.EditText0 - Password (1)'), 'rahasiswa', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.Button0 - SIGN IN'), 0)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.ImageButton0'), 0)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.ImageView0'), 0)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.TextView0 - Create'), 0)
+
+Mobile.setText(findTestObject('Insert Matakuliah/android.widget.EditText0 - Alpro-1'), '01-mathsi', 0)
+
+Mobile.setText(findTestObject('Insert Matakuliah/android.widget.EditText0 - Alpro'), 'math', 0)
+
+Mobile.setText(findTestObject('Insert Matakuliah/android.widget.EditText0 - 3'), '4', 0)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.Spinner0'), 0)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.TextView0 - Rabu'), 0)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.TextView0 - Sesi1'), 0)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.TextView0 - Sesi3'), 0)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.Button0 - SIMPAN'), 0)
+
+Mobile.tap(findTestObject('Insert Matakuliah/android.widget.Button0 - YES'), 0)
+
+Mobile.closeApplication()
+
 WebUI.closeBrowser()
 
